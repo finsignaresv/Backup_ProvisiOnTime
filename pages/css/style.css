@@ -1,0 +1,119 @@
+/* Import HTML5 boilerplate */
+@import url("normalize.css");
+
+/* Import Supersized plugin CSS */
+@import url("supersized.css");
+
+
+
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+/* Styles */
+
+html {
+	height: 100%;
+}
+body {
+  font-family: "Tahoma", "Helvetica", "Arial", sans-serif;
+	line-height: 180%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+  color: #666;
+  background: ;
+}
+
+h1, h2 {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  color: #999;
+}
+h3, h4 {
+  font-weight: normal;
+  color: #999;
+}
+h5 {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 10px;
+  text-align: justify;
+  color: #fff;
+}
+
+h6 {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  text-align: justify;
+  color: #999;
+}
+
+  .black h3 {
+    color: ;
+  }
+.upper {
+  text-transform: uppercase;
+}
+
+#container {
+  width: 930px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+  .box p:last-child {
+	margin-bottom: 0;
+	color: #FFF;
+	text-align: justify;
+  }
+  .box h2 {
+	font-size: 30px;
+	margin: 15px;
+	padding-bottom: 15px;
+	color: #999;
+  }
+
+  .two_thirds h2 {
+    margin: 0 0 15px 0;
+  }
+  .box h3 {
+	margin-bottom: 20px;
+	color: #CCC;
+  }
+
+.padding {
+  padding: 15px;
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.one_sixth, .one_quarter, .one_third, .one_half, .two_thirds {
+  float: left;
+  padding: 15px;
+}
+  .one_sixth {
+    width: 120px;
+  }
+  .one_quarter {
+    width: 195px;
+  }
+  .one_third {
+	width: 420px;
+  }
+    .one_third2 {
+	width: 420px;
+  }
+  .one_half {
+    width: 800px;
+  }
+    .one_hal2f {
+    width: 860px;
+  }
+    .one_half h2 {
+      margin: 0 0 30px 0;
+    }
+  .two_thirds {
+    width: 570px;
+  }
+    .two_thirds .breadcrumbs {
+      padding: 0;
+    }
+	
